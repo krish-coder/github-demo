@@ -45,3 +45,18 @@ git commit -m "initial version"
 
 ### this takes the changes from staging area to local git repo
 
+## git status post commit tells that the local git is ahead of origin/master in remote
+
+git status
+
+# push to remote 
+
+git push 
+
+# check remote details
+
+git remote -v 
+
+#### this gives the remote link to which things will be pushed or things will be fetched from
+
+
