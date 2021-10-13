@@ -1,0 +1,47 @@
+# general rule
+
+git command flags sub-config ...
+
+# configure git
+
+git config --global user.name "krish-coder"
+git config --global user.email "mail2krishna1729@gmail.com"
+
+# Display the above info
+
+git config --global --list
+
+# clone an existing repository
+
+git clone https://github.com/krish-coder/github-demo.git
+
+# check status of git
+
+git status
+
+### default branch is master or main
+### it also says if the branch is up to date with the remote branch origin/main or origin/master
+
+####### there are 4 parts to explain ##########
+
+### working directory  - staging area - .git - remote
+
+** we make changes to working directory
+** we then stage this before sending it to git local repo
+** we then add it to local git repo
+** we then add this change to remote repo
+
+# staging area 
+
+git add file_name
+
+####### staging area is used as intermediate local area to review and accumulate the atomic changes without modifying the history of local git repo
+
+###### we can undo this without impacting the history
+
+# Commit to .git repo
+
+git commit -m "initial version"
+
+### this takes the changes from staging area to local git repo
+
