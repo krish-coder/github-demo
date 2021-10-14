@@ -1,0 +1,10 @@
+# add notepad++ to git editor
+
+####### set notepad++ in system env path
+##### to modify global core.editor use --global else it modifies core.editor of that bash/cmd instance
+
+git config --global core.editor "notepad++.exe -multiInst -nosession"
+
+# to use the default editor in git
+
+git config --global -e
