@@ -59,4 +59,12 @@ git remote -v
 
 #### this gives the remote link to which things will be pushed or things will be fetched from
 
+# To set the new origin replacing old one 
+
+git remote set-url origin git@github.com:krish-coder/github-demo.git
+
+# to add a new origin 
+
+git remote add origin git@github.com:krish-coder/github-demo.git
+
 
