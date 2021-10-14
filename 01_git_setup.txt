@@ -49,6 +49,8 @@ git commit -m "initial version"
 
 git status
 
+## In general git status tells the local branch details and tells if we are in sync with the remote or behind or ahead
+
 # push to remote 
 
 git push 
