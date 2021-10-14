@@ -1,0 +1,35 @@
+# start new project locally from the scratch
+
+git init git_local_prj
+
+# to list all hidden folders/files use -al in ls
+
+ls -al
+
+# To initialize an existing project in local to git repo
+
+cd new_prj_name
+
+git init
+
+# Then stage all files in the current dir 
+
+git add .
+
+# if .git folder is removed then the dir is not managed by git
+
+rm -rf .git
+
+# To get our own copy of opensource project to work on use fork in github
+# Then the project shall be copied to our own space in our account in github
+# Then clone it and add ur code
+
+github-> fork -> clone -> make ur changes
+
+# Pull changes from remote
+
+git pull origin master
+
+### To stage and commit at the same time 
+
+git commit -am "stage and commit in one shot"
