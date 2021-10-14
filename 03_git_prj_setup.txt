@@ -33,3 +33,9 @@ git pull origin master
 ### To stage and commit at the same time 
 
 git commit -am "stage and commit in one shot"
+
+### to list files in git repo locally in the given directory
+
+git ls-files
+
+### any uncommited/unstaged file which is a local change shall not appear in git ls-files
