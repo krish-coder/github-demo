@@ -69,4 +69,6 @@ git remote set-url origin git@github.com:krish-coder/github-demo.git
 
 git remote add origin git@github.com:krish-coder/github-demo.git
 
+# git difference
 
+git difftool

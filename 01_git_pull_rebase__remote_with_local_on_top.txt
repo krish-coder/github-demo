@@ -1,0 +1,5 @@
+git pull --rebase
+
+# This pulls the changes from remote puts it to the local and takes the changes on top of it.
+
+# Its like bringing our changes to the top of remote current head

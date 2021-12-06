@@ -1,0 +1,37 @@
+## to create recursive new dirs
+
+mkdir -p level1/level2/level3
+
+## when recursive dirs are created git status shows only level 1 dir changes
+
+# hence use 
+
+git add .
+
+# to delete the local change and sync with head of current branch
+
+git reset --hard 
+
+git reset --hard feature/USS120BSW-974/correlator_echo_creation_unit_testing
+
+# deletes all local changes 
+
+git clean -ffdx
+
+# syncs local file to remote
+
+git checkout HEAD -- ./path/to/file/name
+
+???
+
+# 
+
+git pull --rebase
+
+# Shows the branch and commit information
+
+gitk
+
+# 
+
+take local changes on top of remote changes

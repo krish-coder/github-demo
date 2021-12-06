@@ -1,0 +1,1 @@
+git difftool origin/feature/USS120BSW-974/correlator_echo_creation_unit_testing -- src/component/usp_correlator/usp_echo_buffer.h

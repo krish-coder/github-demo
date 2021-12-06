@@ -1,0 +1,4 @@
+git difftool 90ecabbe5118b816f5a225c240fb07127c0be4a0 dc6e62027d20d2650377d5a8cb42986419cc3991
+
+# Get the two sha ids from gitk command
+# gitk also gives the list of files changed in the given commit (when compared to previous)
